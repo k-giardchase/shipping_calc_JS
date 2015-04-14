@@ -3,7 +3,7 @@
 }
 
 header h1, header h3 {
-  color: snow;
+  color: black;
   text-shadow: 1px 1px 1px #888;
   margin: 0;
   text-align: center;
@@ -17,6 +17,5 @@ header h3 {
 
 header {
   padding: 50px 0;
-  background: url('http://i.huffpost.com/gen/1180161/images/o-WORLD-OCEANS-DAY-2013-facebook.jpg') no-repeat bottom;
-  background-size: 100%;
+  background: #F5FBFF;
 }
