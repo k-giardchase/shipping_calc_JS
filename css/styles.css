@@ -2,6 +2,10 @@
   display: none;
 }
 
+#priority {
+  width: 40%
+}
+
 header h1, header h3 {
   color: black;
   text-shadow: 1px 1px 1px #888;

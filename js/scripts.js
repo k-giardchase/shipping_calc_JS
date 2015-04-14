@@ -1,25 +1,26 @@
-var cost = function(weight, distance, depth, priority) {
-  
-};
-
-
 $(document).ready(function() {
   $("form#shipping").submit(function(event) {
     event.preventDefault();
 
-    var weight = $("input#weight").val();
-    var distance = $("input#distance").val();
-    var depth = $("input#depth").val();
-    var priority = $("input#priority").val();
+    var inputWeight = parseInt($("input#weight").val());
+    var inputDistance = parseInt($("input#distance").val());
+    var inputDepth = parseInt($("input#depth").val());
+    var inputPriority = parseInt($("select#priority").val());
 
-    var package = {
-      weight: weight,
-      distance: distance,
-      depth: depth,
-      priority: priority,
-      cost: cost(this.weight, this.distance, this.depth, this.priority)
+    var shipment = {
+      weight: inputWeight,
+      distance: inputDistance,
+      depth: inputDepth,
+      priority: inputPriority,
+      cost: function() {
+        return 2500 + (this.weight * .25) * (5 * this.distance + (3.2 * this.depth)) + (this.priority * 100);
+      }
     };
 
+    var result = shipment.cost();
+
+    $(".total").text(result);
+    $("#result").show();
 
   });
 });
