@@ -27,15 +27,15 @@
         <form id='shipping'>
           <div class='form-group'>
             <label for='weight'>Weight</label>
-            <input id='weight' type='text' class='form-control' placeholder='Tons'>
+            <input id='weight' type='number' class='form-control' placeholder='Tons'>
           </div>
           <div class='form-group'>
             <label for='distance'>Distance</label>
-            <input id='distance' type='text' class='form-control' placeholder='Nautical Miles'>
+            <input id='distance' type='number' class='form-control' placeholder='Nautical Miles'>
           </div>
           <div class='form-group'>
             <label for='depth'>Depth</label>
-            <input id='depth' type='text' class='form-control' placeholder='Fathoms'>
+            <input id='depth' type='number' class='form-control' placeholder='Fathoms'>
           </div>
           <div class='form-group'>
             <label for="priority">Priority</label>
@@ -53,8 +53,8 @@
     </div>
 
     <div class='row'>
-      <div id='result' class='col-sm-4 col-sm-offset-4'>
-        <p>Your estimated shipping costs are: $<span class='total'></span></p>
+      <div id='result' class='col-sm-8 col-sm-offset-4'>
+        <h4>Your estimated shipping costs are: $<span class='total'></span></h4>
       </div>
     </div>
   </div>
