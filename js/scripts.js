@@ -19,6 +19,10 @@ $(document).ready(function() {
 
     var result = shipment.cost();
 
+    $("#weight").val("").focus();
+    $("#distance").val("");
+    $("#depth").val("");
+
     $(".total").text(result);
     $("#result").show();
 
