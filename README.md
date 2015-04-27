@@ -13,12 +13,16 @@ An app that calculates shipping costs based on package properties.
 Javascript <br>
 <a href='https://jquery.com/download/'>jQuery-1.11.2</a> <br>
 <a href='http://mochajs.org/'>Mocha</a> <br>
-<a href='http://chaijs.com/'>Chai</a>
+<a href='http://chaijs.com/'>Chai</a><br><br>
+
+The bubbles animation was taken from a CodePen found <a href='http://codepen.io/bh/pen/JBlCc'>here</a>.<br>
+The submarine was taken from CodePen found <a href='http://codepen.io/sdras/pen/DtzlK'>here</a>.
+
 
 
 ##Use and Editing
 To use the app, clone the repository. In the top level of the project folder, click on index.html and open it in your web browser. NOTE: to view CSS animation, it is best to use a google chrome browser.<br><br>
-To edit the app, you will need jQuery, as well as Mocha and Chai to run BDD tests. These libaries are already located in the js and specs folders, respectively. <br><br>
+To edit the app, you will need jQuery, as well as Mocha and Chai to run BDD tests. These libraries/frameworks are already located in the js and specs folders, respectively. <br><br>
 
 
 ##Copyright (c) 2015 Kyle Giard-Chase & Tom Mertz
